@@ -13,14 +13,22 @@ const services = [
     title: "Frontend Development",
     description:
       "Crafting responsive, user-focused applications using modern frameworks like React and Vue.js. Specializing in performance optimization, cross-browser compatibility, and accessibility. Incorporating state management, animations, and reusable components to deliver engaging, high-quality user interfaces tailored to client needs",
-    icon: <FaCode size={50} className="text-blue-500 group-hover:text-white dark:group-hover:text-blue-500" />,
+    icon: (
+      <FaCode
+        size={50}
+        className="text-blue-500 group-hover:text-white dark:group-hover:text-blue-500"
+      />
+    ),
   },
   {
     title: "Backend Development",
     description:
       "Building scalable server-side solutions using Node.js, Express, and APIs. Expertise in authentication, database integration, and cloud services. Ensuring secure, efficient logic for seamless frontend integration and reliable backend performance.",
     icon: (
-      <FaServer size={40} className="text-green-500 group-hover:text-white dark:group-hover:text-green-500" />
+      <FaServer
+        size={40}
+        className="text-green-500 group-hover:text-white dark:group-hover:text-green-500"
+      />
     ),
   },
   {
@@ -39,7 +47,10 @@ const services = [
     description:
       "Designing and managing relational and non-relational databases like MySQL and MongoDB. Expertise in schema design, optimized queries, data security, and scalability. Ensuring reliable integration with applications for seamless data handling.",
     icon: (
-      <FaDatabase size={40} className="text-red-500 group-hover:text-white dark:group-hover:text-red-500" />
+      <FaDatabase
+        size={40}
+        className="text-red-500 group-hover:text-white dark:group-hover:text-red-500"
+      />
     ),
   },
   {
@@ -69,6 +80,10 @@ const services = [
 function MyServices() {
   return (
     <div className="bg-bgcolour text-black px-6 md:px-16  py-10 md:py-16 lg:py-28 lg:px-72 dark:bg-darkBg">
+      <p className="mb-2 text-navy font-semibold text-center  text-lg  lg:text-2xl">
+        Whai I Do
+      </p>
+
       <div className="text-3xl md:text-5xl lg:mb-12 font-extrabold text-center dark:text-white">
         Areas of Expertise
       </div>

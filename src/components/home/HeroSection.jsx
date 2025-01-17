@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/images/GradDp.jpg";
+import img from "../../assets/images/RAshmi.jpeg";
 import {
   FaLinkedin,
   FaFacebook,
@@ -16,20 +16,30 @@ function HeroSection() {
       <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6">
           <span className="text-black dark:text-white">Hey, I'm </span>
-          <span className="text-navy">Bawantha Pasqual</span>
+          <span className="text-navy">Rashmi Jayasekara</span>
         </h1>
 
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-black dark:text-white">
           Full Stack Developer
         </h1>
 
-        <p className="text-secondaryText text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-justify dark:text-darkPrimary">
+        {/* <p className="text-secondaryText text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-justify dark:text-darkPrimary">
           I’m passionate about learning and growing as a developer, with a love
           for coding and creating impactful projects. Outside work, I enjoy
           cricket and unwinding with Netflix. Skilled in
           <b className="text-navy"> JavaScript </b> and the
           <b className="text-navy"> MERN stack </b>, I’m excited to keep
           evolving in the world of software engineering. Let's connect!
+        </p> */}
+
+        <p className="text-secondaryText text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-justify dark:text-darkPrimary">
+          Results-driven Computer System Engineering graduate with a strong
+          academic background and hands-on experience in software systems,
+          machine learning, artificial intelligence, robotics, and system
+          integration. Proficient in multiple programming languages, including
+          PHP, Python, Java, Kotlin, Flutter, Dart, VB.NET, C, MATLAB and
+          JavaScript. Committed to delivering impactful solutions while
+          excelling in collaborative and dynamic environments.{" "}
         </p>
 
         <div className="flex space-x-3 sm:space-x-4 md:space-x-6">
@@ -59,10 +69,8 @@ function HeroSection() {
             />
           </a>
 
-         
-
           <a
-            href="mailto:bawanthapasqual@gmail.com" 
+            href="mailto:bawanthapasqual@gmail.com"
             className="flex items-center bg-white p-2 sm:p-3 md:p-4 shadow border-blue-gray-50 rounded-md cursor-pointer hover:scale-105 hover:shadow-2xl transition-transform duration-300 hover:bg-navy group"
             title="Email"
           >
@@ -73,7 +81,7 @@ function HeroSection() {
           </a>
 
           <a
-            href="https://wa.me/+94770370370" 
+            href="https://wa.me/+94770370370"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center bg-white p-2 sm:p-3 md:p-4 shadow border-blue-gray-50 rounded-md cursor-pointer hover:scale-105 hover:shadow-2xl transition-transform duration-300 hover:bg-navy group"

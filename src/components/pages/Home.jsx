@@ -8,6 +8,7 @@ import Education from "../home/Education";
 import MyServices from "../home/MyServices";
 import Certificates from "../home/Certificates";
 import Footer from "../common/Footer";
+import AboutMe from "../home/AboutMe";
 
 function Home() {
   return (
@@ -17,11 +18,15 @@ function Home() {
         <HeroSection />
       </section>
       <section id="skills">
-        <Skills />
+        <AboutMe />
       </section>
       <section id="expertise">
         <MyServices />
       </section>
+      <section id="skills">
+        <Skills />
+      </section>
+
       <section id="projects">
         <Projects />
       </section>
@@ -34,7 +39,7 @@ function Home() {
       <section id="certificates">
         <Certificates />
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -15,7 +15,7 @@ module.exports = withMT({
         bgcolourtwo: "#f3f4f6",
         primaryText: "#2C3E50",
         secondaryText: "#5D6D7E",
-        navy: "#3572EF",
+        navy: "#FF007B",
 
         // Dark Mode Colors
         darkBg: "#121212", // Dark gray/black

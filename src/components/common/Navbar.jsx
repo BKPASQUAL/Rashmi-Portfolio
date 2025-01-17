@@ -14,7 +14,7 @@ function Navbar() {
           className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover p-1"
         />
         <h1 className="font-bold text-xl md:text-2xl text-black dark:text-white">
-          Bawantha Pasqual
+          Rashmi Jayasekara
         </h1>
       </div>
 

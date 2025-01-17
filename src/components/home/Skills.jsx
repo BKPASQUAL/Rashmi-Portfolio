@@ -86,6 +86,7 @@ function Skills() {
 
   return (
     <div className="bg-bgcolourtwo text-black px-6 md:px-16 lg:px-72 lg:py-28 py-10 md:py-20 dark:bg-black">
+      <p className="mb-2 text-navy font-semibold text-center  text-lg  lg:text-2xl">Skills</p>
       <div className="text-3xl md:text-5xl font-extrabold text-center mb-10 md:mb-20 dark:text-white">
         My Tech Stack
       </div>
