@@ -42,6 +42,25 @@ import car6 from "../images/CarStore/car6.png";
 import car7 from "../images/CarStore/car7.png";
 import car8 from "../images/CarStore/car8.png";
 
+import capp1 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp2 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp3 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp4 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp5 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp6 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp7 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp8 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp9 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp10 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp11 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp12 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp13 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp14 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp15 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp16 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp17 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp18 from "../images/Rashmi/CASH_APP/capp1.png";
+
 import green1 from "../images/Green/green1.png";
 import green2 from "../images/Green/green2.png";
 import green3 from "../images/Green/green3.png";
@@ -66,6 +85,52 @@ import emang3 from "../images/e-corm-management/e-mang3.png";
 import emang4 from "../images/e-corm-management/e-mang4.png";
 
 const ProjectData = [
+  {
+    title: "Cash App for Fentons IT",
+    shortDescription:
+      "A mobile application to streamline cash management operations for Fentons IT.",
+    description:
+      "The Cash App for Fentons IT is a mobile application designed to streamline cash management operations within the company. This app provides a seamless platform for employees to submit cash advance requests, track their status, and reconcile expenses, all while enhancing operational efficiency and minimizing manual processes. The app integrates real-time notifications, secure logins, and a detailed reporting system for both employees and administrators.",
+    stack: [
+      "Flutter (Dart)",
+      "Firebase Authentication",
+      "RESTful APIs",
+      "MySQL",
+      "PHP",
+      "DBeaver",
+    ],
+    features: [
+      "Cash Advance Requests with supporting document uploads",
+      "Role-based approval workflow with real-time notifications",
+      "Request tracking from submission to approval/rejection",
+      "Expense settlement and reconciliation module",
+      "Secure login with multi-factor authentication and encrypted storage",
+      "Real-time push notifications for request status updates",
+      "Detailed report generation on cash transactions",
+    ],
+    images: [
+      capp1,
+      capp2,
+      capp3,
+      capp4,
+      capp5,
+      capp6,
+      capp7,
+      capp8,
+      capp9,
+      capp10,
+      capp11,
+      capp12,
+      capp13,
+      capp14,
+      capp15,
+      capp16,
+      capp17,
+      capp18,
+    ],
+    // github_fe: "https://github.com/yourusername/cashapp-fe.git",
+    // github_be: "https://github.com/yourusername/cashapp-be.git",
+  },
   {
     title: "Medisense Laboratory Pvt Ltd",
     shortDescription:
@@ -180,9 +245,9 @@ const ProjectData = [
       "Admin dashboard for managing car listings and site data",
     ],
     images: [car1, car2, car3, car4, car5, car6, car7, car8],
-    github_fe: "https://github.com/BKPASQUAL/Car-Store-FE.git",
-    github_be: "https://github.com/BKPASQUAL/Car-Store-BE.git",
-    github_management: "https://github.com/BKPASQUAL/Car-Store-Management.git",
+    // github_fe: "https://github.com/BKPASQUAL/Car-Store-FE.git",
+    // github_be: "https://github.com/BKPASQUAL/Car-Store-BE.git",
+    // github_management: "https://github.com/BKPASQUAL/Car-Store-Management.git",
     // demo: "https://luxuryrides.vercel.app/",
   },
   {
@@ -205,8 +270,8 @@ const ProjectData = [
       "Record management per client with service details, warranty due dates, and more",
     ],
     images: [ams2, ams1, ams3, ams4, ams5, ams6, ams7],
-    github_fe: "https://github.com/yourusername/ams-fe.git",
-    github_be: "https://github.com/yourusername/ams-be.git",
+    // github_fe: "https://github.com/yourusername/ams-fe.git",
+    // github_be: "https://github.com/yourusername/ams-be.git",
   },
 
   {
@@ -231,32 +296,6 @@ const ProjectData = [
     // "github_be": "https://github.com/yourusername/gatepass-be.git"
   },
 
-  // {
-  //   title: "Recipe App",
-  //   shortDescription:
-  //     "A platform for discovering and saving favorite recipes, with user account management and protected routes.",
-  //   description:
-  //     "The Recipe App is a self-learning project designed to help users discover and save their favorite recipes. It integrates OpenAPI to fetch a variety of recipes and allows users to create accounts, add recipes to their favorites, and remove them when desired. The app also includes protected routes using context for managing user sessions. This project focuses on developing a robust front-end with React and implementing user authentication features to provide a personalized experience.",
-  //   stack: [
-  //     "React",
-  //     "Context API",
-  //     "Node.js",
-  //     "OpenAPI",
-  //     "Tailwind CSS",
-  //     "MUI",
-  //   ],
-  //   features: [
-  //     "Fetch recipes from OpenAPI Data set",
-  //     "User account creation and login",
-  //     "Add and remove recipes from favorites",
-  //     "Protected routes for authenticated users",
-  //     "Personalized recipe management",
-  //   ],
-  //   images: [resep1, resep2, resep3, resep4],
-  //   github_fe: "https://github.com/BKPASQUAL/RecipeApp_FE.git",
-  //   github_be: "https://github.com/BKPASQUAL/RecipeApp_BE.git",
-  //   demo: "https://recipe-app-fe-gilt.vercel.app/",
-  // },
   // {
   //   title: "E-Commerce Site (Shoes Shop)",
   //   shortDescription:
