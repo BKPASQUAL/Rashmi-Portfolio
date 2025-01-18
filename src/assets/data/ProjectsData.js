@@ -1,11 +1,26 @@
-import tpp1 from "../images/TPP/tpp1.png";
-import tpp2 from "../images/TPP/tpp2.png";
-import tpp3 from "../images/TPP/tpp3.png";
-import tpp4 from "../images/TPP/tpp4.png";
-import tpp5 from "../images/TPP/tpp5.png";
-import tpp6 from "../images/TPP/tpp6.png";
-import tpp7 from "../images/TPP/tpp7.png";
-import tpp8 from "../images/TPP/tpp8.png";
+import hris1 from "../images/Rashmi/HRIS/hris1.jpg";
+import hris2 from "../images/Rashmi/HRIS/hris2.jpg";
+import hris3 from "../images/Rashmi/HRIS/hris3.jpg";
+import hris4 from "../images/Rashmi/HRIS/hris4.jpg";
+import hris5 from "../images/Rashmi/HRIS/hris5.jpg";
+import hris6 from "../images/Rashmi/HRIS/hris6.jpg";
+import hris7 from "../images/Rashmi/HRIS/hris7.jpg";
+import hris8 from "../images/Rashmi/HRIS/hris8.jpg";
+import hris9 from "../images/Rashmi/HRIS/hris9.png";
+
+import GPass1 from "../images/Rashmi/GPass/GPass1.jpg";
+import GPass2 from "../images/Rashmi/GPass/GPass2.jpg";
+import GPass3 from "../images/Rashmi/GPass/GPass3.jpg";
+import GPass4 from "../images/Rashmi/GPass/GPass4.jpg";
+import GPass5 from "../images/Rashmi/GPass/GPass5.jpg";
+
+import ams1 from "../images/Rashmi/AMS/ams1.png";
+import ams2 from "../images/Rashmi/AMS/ams2.png";
+import ams3 from "../images/Rashmi/AMS/ams3.png";
+import ams4 from "../images/Rashmi/AMS/ams4.png";
+import ams5 from "../images/Rashmi/AMS/ams5.png";
+import ams6 from "../images/Rashmi/AMS/ams6.png";
+import ams7 from "../images/Rashmi/AMS/ams7.png";
 
 import medi1 from "../images/Medicenece/medi1.png";
 import medi2 from "../images/Medicenece/medi2.png";
@@ -114,32 +129,34 @@ const ProjectData = [
     demo: "https://green-light-neon.vercel.app/home",
   },
   {
-    title: "AI-Based Customized Travel Planning Platform For Galle",
+    title: "HRIS System",
     shortDescription:
-      "An AI-powered travel planning platform tailored for the Galle area offering personalized recommendations.",
+      "An advanced Human Resource Information System (HRIS) built with PHP and MySQL, designed to streamline employee data management and HR processes",
     description:
-      "This final year research project is an AI-powered travel planning platform tailored for the Galle area. It combines a machine learning backend, a chatbot, and a responsive front end to provide personalized travel experiences. Users receive tailored recommendations for activities, accommodations, restaurants, and famous sites based on preferences, enhancing travel planning with real-time AI insights. The project is hosted on AWS and Vercel for reliable performance and accessibility.",
+      "This comprehensive HRIS system aims to optimize human resource management within organizations. Built using PHP as the server-side language, the system utilizes MySQL for robust employee data storage and management. The frontend leverages HTML, CSS, jQuery, and JavaScript to create an intuitive and user-friendly interface. The HRIS automates various HR tasks, enhancing data accuracy, reducing errors, and ensuring easy access to reports. By eliminating manual paperwork, it contributes to a paperless and environmentally sustainable work environment, while improving overall productivity. The system also allows seamless integration with other organizational systems to ensure smooth data flow.",
     stack: [
-      "React",
+      "PHP",
+      "MySQL",
       "HTML",
       "CSS",
-      "RTK Query",
-      "Node.js",
-      "Python",
-      "AWS",
-      "Vercel",
-      "Dialogflow",
-      "ngrok",
+      "jQuery",
+      "JavaScript",
+      "DBeaver (Database Management)",
+      "SQL",
     ],
     features: [
-      "Personalized activity and hotel suggestions",
-      "AI-powered chatbot assistance",
-      "Hotel, restaurant, and famous site discovery",
-      "Galle area-specific recommendations",
+      "Centralized employee data storage, ensuring accuracy and easy access.",
+      "Automates HR tasks like attendance tracking, leave management, and payroll.",
+      "User-friendly interface with intuitive navigation for HR professionals and employees.",
+      "Quick and easy report generation for data-driven decision making.",
+      "Eliminates paper-based processes, fostering a more sustainable and eco-friendly workplace.",
+      "Secure database management using MySQL and DBeaver for scalable and reliable data handling.",
+      "Seamless integration with other organizational systems for smooth data flow.",
+      "Supports employee self-service for viewing personal data, leave requests, and payroll information.",
     ],
-    images: [tpp1, tpp2, tpp3, tpp4, tpp5, tpp6, tpp7, tpp8],
-    github_fe: "https://github.com/BKPASQUAL/TPP_FE.git",
-    github_be: "https://github.com/BKPASQUAL/DialogFlow_BE.git",
+    images: [hris1, hris2, hris3, hris4, hris5, hris6, hris7, hris8, hris9],
+    // github_fe: "https://github.com/BKPASQUAL/TPP_FE.git",
+    // github_be: "https://github.com/BKPASQUAL/DialogFlow_BE.git",
   },
   {
     title: "Luxury Ride - Premium Car Store",
@@ -176,72 +193,51 @@ const ProjectData = [
     // demo: "https://luxuryrides.vercel.app/",
   },
   {
-    title: "Weddings By Sonali - Event Inventory Management System",
+    title: "Agreement Management System (AMS)",
     shortDescription:
-      "An event management platform designed to streamline inventory management for event planning.",
+      "A system for managing and tracking various agreements within an organization.",
     description:
-      "Weddings By Sonali is an event management platform designed to streamline inventory management for event planning. It assists with tracking and managing items required for events, providing a centralized system for organizing and maintaining resources. The system is ideal for event planners, offering real-time inventory insights, analytics, and detailed item management to optimize event preparation.",
-    stack: [
-      "React",
-      "RTK Query",
-      "TailwindCSS",
-      "ApexCharts",
-      "Node.js",
-      "RSuite",
-      "MySQL",
-      "Sequelize",
-      "Express",
-      "ngrok",
-      "Vercel",
-    ],
+      "The Agreement Management System (AMS) is designed to simplify the creation, tracking, management, and analysis of agreements. This system centralizes all agreements in a single location and automates the workflows involved in the agreement process, ensuring reduced errors, faster approvals, and compliance management. It is an essential tool for organizations managing large volumes of agreements across different departments.",
+    stack: ["PHP", "MySQL", "HTML", "CSS", "jQuery", "JavaScript", "Bootstrap"],
     features: [
-      "Comprehensive inventory tracking and management",
-      "Real-time analytics and insights with ApexCharts",
-      "Detailed event planning and item tracking",
-      "User-friendly interface with role-based access for staff and managers",
-      "Efficient resource allocation for event planning",
+      "Centralized repository for all agreements",
+      "Workflow automation for faster approval cycles",
+      "Error reduction through automated data entry and revisions",
+      "Time and cost savings by streamlining processes",
+      "Compliance management for legal and regulatory requirements",
+      "Faster decision-making with real-time information",
+      "Data analytics and reporting for agreement performance insights",
+      "Client management in FIRE and AC sections",
+      "Filtering and search functionalities for easy navigation",
+      "Record management per client with service details, warranty due dates, and more",
     ],
-    images: [
-      event1,
-      event2,
-      event3,
-      event4,
-      event5,
-      event6,
-      event7,
-      event8,
-      event9,
-    ],
-    github_fe: "https://github.com/BKPASQUAL/Weddings_By_Sonali_FE.git",
-    github_be: "https://github.com/BKPASQUAL/Weddings_By_Sonali_BE.git",
+    images: [ams2, ams1, ams3, ams4, ams5, ams6, ams7],
+    github_fe: "https://github.com/yourusername/ams-fe.git",
+    github_be: "https://github.com/yourusername/ams-be.git",
   },
+
   {
-    title: "Vital Watch - Smart ICU Patient Monitoring System",
+    title: "Gate Pass Management System",
     shortDescription:
-      "A smart ICU monitoring system enabling real-time vital sign tracking and digital patient records.",
+      "A system to optimize and simplify gate pass management within an organization.",
     description:
-      "Vital Watch is a smart ICU patient monitoring system designed to replace traditional paper records with digital monitoring. This system enables real-time vital sign monitoring and simplifies patient data analysis, providing role-based access control for enhanced security and data management.",
-    stack: [
-      "React",
-      "RTK Query",
-      "ApexCharts",
-      "Bootstrap",
-      "Node.js",
-      "Sequelize",
-      "Express",
-      "MySQL",
-    ],
+      "Gate Pass Management System is a sophisticated platform designed to streamline and simplify gate pass management. It enables users to easily create, view, edit, and manage gate passes. Supervisors can approve or reject requests with a single click, promoting a transparent and efficient workflow. This system ensures seamless communication, improves productivity, and contributes to a paperless work environment.",
+    stack: ["PHP", "MySQL", "HTML", "CSS", "jQuery", "JavaScript", "Bootstrap"],
     features: [
-      "Real-time vital sign monitoring",
-      "Replacement of old paper records with digital tracking",
-      "Patient data analysis and insights",
-      "Patient database maintenance",
-      "Role-based access control for secure data handling",
+      "User-friendly Registration Page",
+      "Efficient gate pass creation and management",
+      "Supervisor dashboard for easy approval/rejection",
+      "Item addition and messaging capabilities",
+      "Paperless and environmentally friendly system",
+      "Automatic error reduction",
+      "Streamlined workflow for users and supervisors",
+      "Detailed reports for analysis and decision-making",
     ],
-    images: [vital1, vital2, vital3, vital4, vital5, vital6],
-    github_fe: "https://github.com/BKPASQUAL/vitalwatchFE.git",
-    github_be: "https://github.com/AnukaFonseka/vital_watch_be.git",
+    images: [GPass1, GPass2, GPass3, GPass4, GPass5], // Replace with actual image URLs
+    // "github_fe": "https://github.com/yourusername/gatepass-fe.git",
+    // "github_be": "https://github.com/yourusername/gatepass-be.git"
   },
+
   // {
   //   title: "Champika Hardware - Retail & Inventory Management System",
   //   shortDescription:
@@ -345,9 +341,7 @@ const ProjectData = [
     github_fe: "https://github.com/BKPASQUAL/E-Commerce-Management-FE.git",
     github_be: "https://github.com/BKPASQUAL/E-Commerce-Management-BE.git",
     demo: "https://e-commerce-management-fe.vercel.app/",
-  }
-  
-  
+  },
 ];
 
 export default ProjectData;

@@ -31,7 +31,7 @@ function App() {
       </header>
       {!isMobile && (
         <AnimatedCursor
-          color="0, 0, 255"
+          color="255, 0, 123"
           outerAlpha={0.4}
           innerScale={0.7}
           outerScale={5}

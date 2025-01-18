@@ -17,7 +17,7 @@ function ProjectDetails({ project }) {
 
   return (
     <div className="bg-bgcolourtwo h-screen w-full p-8 overflow-y-auto dark:bg-darkBg">
-      <h2 className="text-xl font-bold mb-6 mt-2 w-11/12 dark:text-white">{project.title}</h2>
+      <h2 className="text-xl font-bold mb-4 mt-2 w-11/12 dark:text-white">{project.title}</h2>
 
       {/* Image Slider */}
       <div className="mb-6">
@@ -27,7 +27,7 @@ function ProjectDetails({ project }) {
               <img
                 src={image}
                 alt={`Project detail ${index + 1}`}
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-full h-80 object-cover rounded-lg"
               />
             </div>
           ))}
