@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 
 function DarkModeToggle() {
+  // Set the default value to dark mode if there's no saved theme in localStorage
   const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("theme") === "dark"
+    localStorage.getItem("theme") === "dark" || !localStorage.getItem("theme")
   );
 
   useEffect(() => {
