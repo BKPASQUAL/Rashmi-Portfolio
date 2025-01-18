@@ -29,7 +29,7 @@ function Projects() {
   }, [selectedProject]);
 
   return (
-    <div className="bg-bgcolourtwo text-black px-4 md:px-16 lg:px-72 py-10 md:py-20 relative dark:bg-darkBg">
+    <div className="bg-bgcolourtwo text-black px-4 md:px-16 lg:px-72 py-10 md:py-20 relative dark:bg-black">
       <p className="mb-2 text-navy font-semibold text-center  text-lg  lg:text-2xl">
         My Works
       </p>
@@ -40,7 +40,7 @@ function Projects() {
         {ProjectData.map((project) => (
           <div
             key={project.title}
-            className="bg-white w-full h-auto shadow px-4 md:px-6 py-6 md:py-8 flex flex-col rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-105 group cursor-pointer dark:bg-black"
+            className="bg-white w-full h-auto shadow px-4 md:px-6 py-6 md:py-8 flex flex-col rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-105 group cursor-pointer dark:bg-darkBg"
             onClick={() => handleProjectClick(project)}
           >
             <img

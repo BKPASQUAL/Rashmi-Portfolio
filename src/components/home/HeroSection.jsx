@@ -16,11 +16,15 @@ function HeroSection() {
       <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6">
           <span className="text-black dark:text-white">Hey, I'm </span>
-          <span className="text-navy">Rashmi Jayasekara</span>
+          <span className="text-navy">Rashmi </span>
+          <p className="text-base md:text-lg text-black dark:text-white">
+            {" "}
+            BSc. in Engineering (Honours) in Computer Systems Engineering
+          </p>
         </h1>
 
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-black dark:text-white">
-          Full Stack Developer
+          Software Engineer
         </h1>
 
         {/* <p className="text-secondaryText text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-justify dark:text-darkPrimary">
@@ -33,13 +37,12 @@ function HeroSection() {
         </p> */}
 
         <p className="text-secondaryText text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-justify dark:text-darkPrimary">
-          Results-driven Computer System Engineering graduate with a strong
-          academic background and hands-on experience in software systems,
-          machine learning, artificial intelligence, robotics, and system
-          integration. Proficient in multiple programming languages, including
-          PHP, Python, Java, Kotlin, Flutter, Dart, VB.NET, C, MATLAB and
-          JavaScript. Committed to delivering impactful solutions while
-          excelling in collaborative and dynamic environments.{" "}
+          I am a passionate and results-driven Computer Systems Engineering
+          graduate, skilled in a range of technologies from software development
+          to machine learning. With hands-on experience in both academia and
+          industry, I strive to make a significant impact through innovative
+          solutions, bridging the gap between theoretical knowledge and
+          real-world applications.
         </p>
 
         <div className="flex space-x-3 sm:space-x-4 md:space-x-6">

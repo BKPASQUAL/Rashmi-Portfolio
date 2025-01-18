@@ -9,6 +9,7 @@ import MyServices from "../home/MyServices";
 import Certificates from "../home/Certificates";
 import Footer from "../common/Footer";
 import AboutMe from "../home/AboutMe";
+import ResearchInterests from "../home/ResearchInterests";
 
 function Home() {
   return (
@@ -21,11 +22,15 @@ function Home() {
         <AboutMe />
       </section>
       <section id="expertise">
-        <MyServices />
+        <ResearchInterests />
       </section>
       <section id="skills">
         <Skills />
       </section>
+      <section id="expertise">
+        <MyServices />
+      </section>
+    
 
       <section id="projects">
         <Projects />
