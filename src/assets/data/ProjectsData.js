@@ -1,11 +1,11 @@
 import hris1 from "../images/Rashmi/HRIS/hris1.jpg";
 import hris2 from "../images/Rashmi/HRIS/hris2.jpg";
-import hris3 from "../images/Rashmi/HRIS/hris3.jpg";
-import hris4 from "../images/Rashmi/HRIS/hris4.jpg";
-import hris5 from "../images/Rashmi/HRIS/hris5.jpg";
-import hris6 from "../images/Rashmi/HRIS/hris6.jpg";
-import hris7 from "../images/Rashmi/HRIS/hris7.jpg";
-import hris8 from "../images/Rashmi/HRIS/hris8.jpg";
+import hris3 from "../images/Rashmi/HRIS/hris3.png";
+import hris4 from "../images/Rashmi/HRIS/hris4.png";
+import hris5 from "../images/Rashmi/HRIS/hris5.png";
+import hris6 from "../images/Rashmi/HRIS/hris6.png";
+import hris7 from "../images/Rashmi/HRIS/hris7.png";
+import hris8 from "../images/Rashmi/HRIS/hris8.png";
 import hris9 from "../images/Rashmi/HRIS/hris9.png";
 
 import GPass1 from "../images/Rashmi/GPass/GPass1.jpg";
@@ -22,6 +22,14 @@ import ams5 from "../images/Rashmi/AMS/ams5.png";
 import ams6 from "../images/Rashmi/AMS/ams6.png";
 import ams7 from "../images/Rashmi/AMS/ams7.png";
 
+import crm1 from "../images/Rashmi/CRM/crm1.png";
+import crm2 from "../images/Rashmi/CRM/crm2.png";
+import crm3 from "../images/Rashmi/CRM/crm3.png";
+import crm4 from "../images/Rashmi/CRM/crm4.png";
+import crm5 from "../images/Rashmi/CRM/crm5.png";
+import crm6 from "../images/Rashmi/CRM/crm6.png";
+import crm7 from "../images/Rashmi/CRM/crm7.png";
+
 import medi1 from "../images/Medicenece/medi1.png";
 import medi2 from "../images/Medicenece/medi2.png";
 
@@ -34,34 +42,12 @@ import car6 from "../images/CarStore/car6.png";
 import car7 from "../images/CarStore/car7.png";
 import car8 from "../images/CarStore/car8.png";
 
-import event1 from "../images/EventInventory/event1.png";
-import event2 from "../images/EventInventory/event2.png";
-import event3 from "../images/EventInventory/event3.png";
-import event4 from "../images/EventInventory/event4.png";
-import event5 from "../images/EventInventory/event5.png";
-import event6 from "../images/EventInventory/event6.png";
-import event7 from "../images/EventInventory/event7.png";
-import event8 from "../images/EventInventory/event8.png";
-import event9 from "../images/EventInventory/event9.png";
-
 import green1 from "../images/Green/green1.png";
 import green2 from "../images/Green/green2.png";
 import green3 from "../images/Green/green3.png";
 import green4 from "../images/Green/green4.png";
 import green5 from "../images/Green/green5.png";
 import green6 from "../images/Green/green6.png";
-
-import ch1 from "../images/Hardware/ch1.png";
-import ch2 from "../images/Hardware/ch2.png";
-import ch3 from "../images/Hardware/ch3.png";
-import ch4 from "../images/Hardware/ch4.png";
-
-import vital1 from "../images/vitalWatch/vital1.png";
-import vital2 from "../images/vitalWatch/vital2.png";
-import vital3 from "../images/vitalWatch/vital3.png";
-import vital4 from "../images/vitalWatch/vital4.png";
-import vital5 from "../images/vitalWatch/vital5.png";
-import vital6 from "../images/vitalWatch/vital6.png";
 
 import resep1 from "../images/RecepeApp/resep1.png";
 import resep2 from "../images/RecepeApp/resep2.png";
@@ -112,22 +98,29 @@ const ProjectData = [
     github_be: "https://github.com/BKPASQUAL/medisense_be.git",
   },
   {
-    title: "Green Light - Car Inspection Platform",
+    title: "Customer Relationship Management System for Cinec",
     shortDescription:
-      "A platform providing detailed vehicle inspections with automated report generation and role-based access.",
+      "A CRM system designed for managing inquiries and follow-ups for Cinec University.",
     description:
-      "Green Light is a car inspection platform developed for a car inspection company. It provides users with detailed inspection reports on various parts of a vehicle, offering a comprehensive assessment of its overall condition. This web-based application aims to simplify the inspection process for users and administrators, generating in-depth documentation for every vehicle inspected.",
-    stack: ["React", "CSS", "Bootstrap", "RSuite", "Vercel"],
+      "The Customer Relationship Management (CRM) System for Cinec University is designed to streamline and enhance interactions with prospective students, current students, and other stakeholders. The system facilitates the entire student lifecycle, from inquiry management to follow-ups, providing valuable insights through analytics. It integrates communication tools such as SMS and email, allowing efficient tracking and management of inquiries, fostering stronger relationships with prospective students.",
+    stack: ["PHP", "MySQL", "HTML", "CSS", "jQuery", "JavaScript", "Bootstrap"],
     features: [
-      "Detailed inspection reports for each vehicle part",
-      "Automated document generation for comprehensive inspections",
-      "User-friendly web-based platform for both customers and inspectors",
-      "Role-based access for inspectors and administrators",
+      "Centralized database for storing all inquiry and student information",
+      "Trend analysis and reporting for strategic decision-making",
+      "Effective follow-up system for call agents",
+      "Real-time managerial insights on call volume and resource allocation",
+      "Integrated SMS gateway for sending automated responses to inquiries",
+      "Email notifications to keep managers informed about incoming inquiries",
+      "CRM dashboard for managing campaigns, reports, and statistics",
+      "Inquiry management with filter functionality and customer export options",
+      "Customizable report generation (PDF, CSV, Excel)",
+      "Campaign management for sending SMS campaigns to large audiences",
     ],
-    images: [green1, green2, green3, green4, green5, green6],
-    github_fe: "https://github.com/BKPASQUAL/GreenLight.git",
-    demo: "https://green-light-neon.vercel.app/home",
+    images: [crm1, crm2, crm3, crm4, crm5, crm6, crm7],
+    // "github_fe": "https://github.com/yourusername/crm-fe.git",
+    // "github_be": "https://github.com/yourusername/crm-be.git"
   },
+
   {
     title: "HRIS System",
     shortDescription:
@@ -239,109 +232,80 @@ const ProjectData = [
   },
 
   // {
-  //   title: "Champika Hardware - Retail & Inventory Management System",
+  //   title: "Recipe App",
   //   shortDescription:
-  //     "A platform for managing hardware distribution, retail operations, and inventory management.",
+  //     "A platform for discovering and saving favorite recipes, with user account management and protected routes.",
   //   description:
-  //     "Champika Hardware is an ongoing project designed for managing hardware distribution and retail operations. It includes a comprehensive inventory system to handle stock management, customer records, supplier relationships, and billing processes. With a centralized database, the platform helps streamline inventory, billing, and data maintenance, enhancing efficiency for both wholesale and retail activities.",
+  //     "The Recipe App is a self-learning project designed to help users discover and save their favorite recipes. It integrates OpenAPI to fetch a variety of recipes and allows users to create accounts, add recipes to their favorites, and remove them when desired. The app also includes protected routes using context for managing user sessions. This project focuses on developing a robust front-end with React and implementing user authentication features to provide a personalized experience.",
   //   stack: [
   //     "React",
-  //     "RTK Query",
+  //     "Context API",
   //     "Node.js",
-  //     "Sequelize",
-  //     "Express",
+  //     "OpenAPI",
   //     "Tailwind CSS",
-  //     "Figma",
+  //     "MUI",
+  //   ],
+  //   features: [
+  //     "Fetch recipes from OpenAPI Data set",
+  //     "User account creation and login",
+  //     "Add and remove recipes from favorites",
+  //     "Protected routes for authenticated users",
+  //     "Personalized recipe management",
+  //   ],
+  //   images: [resep1, resep2, resep3, resep4],
+  //   github_fe: "https://github.com/BKPASQUAL/RecipeApp_FE.git",
+  //   github_be: "https://github.com/BKPASQUAL/RecipeApp_BE.git",
+  //   demo: "https://recipe-app-fe-gilt.vercel.app/",
+  // },
+  // {
+  //   title: "E-Commerce Site (Shoes Shop)",
+  //   shortDescription:
+  //     "A platform for discovering and purchasing shoes, with a cart feature and user session management.",
+  //   description:
+  //     "The E-Commerce Shoes Shop is a self-learning project where users can browse various shoes, add them to their cart, and manage their shopping experience. The app uses React.js for the front-end development and Context API for state management. The user can view available shoes, select items, and add them to the shopping cart. This project focuses on building a smooth shopping experience with personalized cart management features.",
+  //   stack: ["React.js", "Context API", "Tailwind CSS", "MUI"],
+  //   features: [
+  //     "Browse a variety of shoes",
+  //     "Search shoes by name",
+  //     "Filter shoes by category",
+  //     "Add shoes to the shopping cart",
+  //     "View cart and manage selected items",
+  //     "Responsive and user-friendly UI",
+  //   ],
+  //   images: [ecorm1, ecorm2, ecorm3, ecorm4, ecorm5],
+  //   github_fe: "https://github.com/BKPASQUAL/E-Commerce-Site.git",
+  //   demo: "https://e-commerce-site-rho-five.vercel.app/",
+  // },
+  // {
+  //   title: "E-Commerce Site Management",
+  //   shortDescription:
+  //     "A full-stack platform for managing products and sales with a powerful dashboard and analytics.",
+  //   description:
+  //     "The E-Commerce Site Management is a self-learning project built with the MERN stack. It allows admins to manage products by adding, editing, updating, and deleting them. The app features a dashboard that provides insights into total users, total items, and total customers, along with product analytics visualized using Apex Charts. The project focuses on creating a seamless admin experience with responsive UI and efficient product management.\n\nLogin Credentials:\nEmail: admin@gmail.com\nPassword: 000000",
+  //   stack: [
+  //     "React.js",
+  //     "Node.js",
+  //     "Express.js",
+  //     "MongoDB",
+  //     "Context API",
+  //     "Apex Charts",
+  //     "Tailwind CSS",
   //     "MUI",
   //     "RSuite",
   //   ],
   //   features: [
-  //     "Inventory management for hardware items",
-  //     "Billing and receipt generation",
-  //     "Customer and supplier management",
-  //     "Database maintenance for customer and supplier records",
-  //     "Centralized system for efficient retail and distribution operations",
+  //     "Admin dashboard with analytics",
+  //     "Add, edit, update, and delete products",
+  //     "Display total users, items, and customers",
+  //     "Product quantity and pricing insights",
+  //     "Responsive and user-friendly UI",
+  //     "Charts and data visualization using Apex Charts",
   //   ],
-  //   images: [ch1, ch2, ch3, ch4],
-  //   github_fe: "https://github.com/BKPASQUAL/Champika-Hardware-FE.git",
-  //   github_be: "https://github.com/YourRepo/ChampikaHardware_BE",
+  //   images: [emang1, emang2, emang3, emang4],
+  //   github_fe: "https://github.com/BKPASQUAL/E-Commerce-Management-FE.git",
+  //   github_be: "https://github.com/BKPASQUAL/E-Commerce-Management-BE.git",
+  //   demo: "https://e-commerce-management-fe.vercel.app/",
   // },
-
-  {
-    title: "Recipe App",
-    shortDescription:
-      "A platform for discovering and saving favorite recipes, with user account management and protected routes.",
-    description:
-      "The Recipe App is a self-learning project designed to help users discover and save their favorite recipes. It integrates OpenAPI to fetch a variety of recipes and allows users to create accounts, add recipes to their favorites, and remove them when desired. The app also includes protected routes using context for managing user sessions. This project focuses on developing a robust front-end with React and implementing user authentication features to provide a personalized experience.",
-    stack: [
-      "React",
-      "Context API",
-      "Node.js",
-      "OpenAPI",
-      "Tailwind CSS",
-      "MUI",
-    ],
-    features: [
-      "Fetch recipes from OpenAPI Data set",
-      "User account creation and login",
-      "Add and remove recipes from favorites",
-      "Protected routes for authenticated users",
-      "Personalized recipe management",
-    ],
-    images: [resep1, resep2, resep3, resep4],
-    github_fe: "https://github.com/BKPASQUAL/RecipeApp_FE.git",
-    github_be: "https://github.com/BKPASQUAL/RecipeApp_BE.git",
-    demo: "https://recipe-app-fe-gilt.vercel.app/",
-  },
-  {
-    title: "E-Commerce Site (Shoes Shop)",
-    shortDescription:
-      "A platform for discovering and purchasing shoes, with a cart feature and user session management.",
-    description:
-      "The E-Commerce Shoes Shop is a self-learning project where users can browse various shoes, add them to their cart, and manage their shopping experience. The app uses React.js for the front-end development and Context API for state management. The user can view available shoes, select items, and add them to the shopping cart. This project focuses on building a smooth shopping experience with personalized cart management features.",
-    stack: ["React.js", "Context API", "Tailwind CSS", "MUI"],
-    features: [
-      "Browse a variety of shoes",
-      "Search shoes by name",
-      "Filter shoes by category",
-      "Add shoes to the shopping cart",
-      "View cart and manage selected items",
-      "Responsive and user-friendly UI",
-    ],
-    images: [ecorm1, ecorm2, ecorm3, ecorm4, ecorm5],
-    github_fe: "https://github.com/BKPASQUAL/E-Commerce-Site.git",
-    demo: "https://e-commerce-site-rho-five.vercel.app/",
-  },
-  {
-    title: "E-Commerce Site Management",
-    shortDescription:
-      "A full-stack platform for managing products and sales with a powerful dashboard and analytics.",
-    description:
-      "The E-Commerce Site Management is a self-learning project built with the MERN stack. It allows admins to manage products by adding, editing, updating, and deleting them. The app features a dashboard that provides insights into total users, total items, and total customers, along with product analytics visualized using Apex Charts. The project focuses on creating a seamless admin experience with responsive UI and efficient product management.\n\nLogin Credentials:\nEmail: admin@gmail.com\nPassword: 000000",
-    stack: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Context API",
-      "Apex Charts",
-      "Tailwind CSS",
-      "MUI",
-      "RSuite",
-    ],
-    features: [
-      "Admin dashboard with analytics",
-      "Add, edit, update, and delete products",
-      "Display total users, items, and customers",
-      "Product quantity and pricing insights",
-      "Responsive and user-friendly UI",
-      "Charts and data visualization using Apex Charts",
-    ],
-    images: [emang1, emang2, emang3, emang4],
-    github_fe: "https://github.com/BKPASQUAL/E-Commerce-Management-FE.git",
-    github_be: "https://github.com/BKPASQUAL/E-Commerce-Management-BE.git",
-    demo: "https://e-commerce-management-fe.vercel.app/",
-  },
 ];
 
 export default ProjectData;

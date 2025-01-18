@@ -6,13 +6,37 @@ import {
   FaCloudUploadAlt,
   FaPencilRuler,
   FaLayerGroup,
+  FaNetworkWired, // For Networking and Security
+  FaTools, // For System Maintenance and Troubleshooting
 } from "react-icons/fa";
 
 const services = [
   {
-    title: "Frontend Development",
+    title: "Networking and Security",
     description:
-      "Crafting responsive, user-focused applications using modern frameworks like React and Vue.js. Specializing in performance optimization, cross-browser compatibility, and accessibility. Incorporating state management, animations, and reusable components to deliver engaging, high-quality user interfaces tailored to client needs",
+      "Expertise in network configuration, security protocols, and ensuring the integrity of systems through firewalls, VPNs, and encryption. Specializing in risk management, threat analysis, and implementing secure network infrastructures.",
+    icon: (
+      <FaNetworkWired
+        size={50}
+        className="text-blue-500 group-hover:text-white dark:group-hover:text-blue-500"
+      />
+    ),
+  },
+  {
+    title: "System Maintenance and Troubleshooting",
+    description:
+      "Proficient in maintaining and optimizing system performance. Troubleshooting hardware and software issues, applying patches, and ensuring smooth system operations. Specializing in preventive maintenance, diagnostics, and system upgrades.",
+    icon: (
+      <FaTools
+        size={50}
+        className="text-green-500 group-hover:text-white dark:group-hover:text-green-500"
+      />
+    ),
+  },
+  {
+    title: "Web Development",
+    description:
+      "Building dynamic, scalable, and responsive websites using modern web technologies like React, Vue.js, HTML5, CSS3, and JavaScript. Focus on user-centric design, performance optimization, and seamless user experiences.",
     icon: (
       <FaCode
         size={50}
@@ -21,20 +45,9 @@ const services = [
     ),
   },
   {
-    title: "Backend Development",
+    title: "Mobile Development",
     description:
-      "Building scalable server-side solutions using Node.js, Express, and APIs. Expertise in authentication, database integration, and cloud services. Ensuring secure, efficient logic for seamless frontend integration and reliable backend performance.",
-    icon: (
-      <FaServer
-        size={40}
-        className="text-green-500 group-hover:text-white dark:group-hover:text-green-500"
-      />
-    ),
-  },
-  {
-    title: "Full Stack Applications",
-    description:
-      "Developing end-to-end solutions with robust frontend-backend integration. Creating scalable architectures, implementing dynamic features like real-time updates, and delivering full-stack applications optimized for performance, security, and user engagement.",
+      "Developing cross-platform mobile applications with frameworks like Flutter and React Native. Expertise in integrating native APIs, optimizing performance, and delivering seamless mobile experiences for both Android and iOS platforms.",
     icon: (
       <FaLayerGroup
         size={40}
@@ -54,9 +67,9 @@ const services = [
     ),
   },
   {
-    title: "Figma to React",
+    title: "Researching",
     description:
-      "Transforming design prototypes from Figma into interactive, pixel-perfect React components. This includes ensuring responsiveness, maintaining design fidelity, and integrating reusable components for scalable and efficient UI development.",
+      "Conducting in-depth research in various fields, analyzing data, and producing valuable insights. Expertise in both qualitative and quantitative methods, with experience in academic and industry research projects.",
     icon: (
       <FaPencilRuler
         size={40}
@@ -64,19 +77,7 @@ const services = [
       />
     ),
   },
-  {
-    title: "Deployment & Hosting",
-    description:
-      "Deploying applications using AWS, Vercel, and Docker. Setting up automated pipelines, scalable environments, and performance optimizations. Managing DNS, SSL, and monitoring to ensure uptime, security, and reliability.",
-    icon: (
-      <FaCloudUploadAlt
-        size={40}
-        className="text-teal-500 group-hover:text-white dark:group-hover:text-teal-500"
-      />
-    ),
-  },
 ];
-
 function MyServices() {
   return (
     <div className="bg-bgcolour text-black px-6 md:px-16  py-10 md:py-16 lg:py-28 lg:px-72 dark:bg-darkBg">
@@ -90,7 +91,7 @@ function MyServices() {
       <div className="flex flex-col gap-6 p-4 md:p-10">
         {/* First Section */}
         <div className="flex flex-col lg:flex-row gap-6 ">
-          <div className="w-full lg:w-1/4 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-white   ">
+          <div className="w-full lg:w-1/4 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy   ">
             {services[0].icon}
             <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white dark:group-hover:text-black">
               {services[0].title}
@@ -100,7 +101,7 @@ function MyServices() {
             </p>
           </div>
           <div className="flex flex-col gap-6 w-full lg:w-2/4">
-            <div className="h-full bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-white ">
+            <div className="h-full bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy ">
               {services[4].icon}
               <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white  dark:group-hover:text-black">
                 {services[4].title}
@@ -109,7 +110,7 @@ function MyServices() {
                 {services[4].description}
               </p>
             </div>
-            <div className="h-full bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-white">
+            <div className="h-full bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
               {services[1].icon}
               <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white dark:group-hover:text-black">
                 {services[1].title}
@@ -119,7 +120,7 @@ function MyServices() {
               </p>
             </div>
           </div>
-          <div className="w-full lg:w-1/4 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-white">
+          <div className="w-full lg:w-1/4 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
             {services[3].icon}
             <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white dark:group-hover:text-black">
               {services[3].title}
@@ -132,7 +133,7 @@ function MyServices() {
 
         {/* Second Section */}
         <div className="flex flex-col md:flex-row gap-6">
-          <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-white">
+          <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
             {services[2].icon}
             <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white dark:group-hover:text-black">
               {services[2].title}
@@ -141,7 +142,7 @@ function MyServices() {
               {services[2].description}
             </p>
           </div>
-          <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-white">
+          <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
             {services[5].icon}
             <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white dark:group-hover:text-black">
               {services[5].title}
