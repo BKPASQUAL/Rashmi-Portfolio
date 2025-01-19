@@ -38,12 +38,12 @@ function Home() {
       <section id="work">
         <WorkExperience />
       </section>
-      <section id="education">
+      {/* <section id="education">
         <Education />
       </section>
       <section id="certificates">
         <Certificates />
-      </section>
+      </section> */}
       <Footer />
     </div>
   );

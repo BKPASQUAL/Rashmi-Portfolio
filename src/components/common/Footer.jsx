@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="border-b border-white/10 pb-8 flex flex-col md:flex-row md:justify-between items-center space-y-12 md:space-y-0">
         {/* Left Section */}
         <div className="w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-6">
-          <h1 className="text-4xl md:text-5xl font-bold text-navy">Bawantha Pasqual</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-navy">Rashmi Jayasekara</h1>
           <p className="text-gray-400 text-sm md:text-base">
             Always excited to collaborate on new projects or challenges. Feel
             free to reach out to me through any platform below.
@@ -59,7 +59,7 @@ export default function Footer() {
             <div className="flex flex-col text-black">
               <i className="far fa-envelope text-3xl md:text-4xl"></i>
               <p className="text-sm md:text-lg mt-4 font-semibold">
-                Bawantha Pasqual
+              Rashmi Jayasekara
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function Footer() {
       <div className="pt-8 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
         {/* Copyright */}
         <p className="text-gray-500 text-sm text-center">
-          © {new Date().getFullYear()} Bawantha Pasqual. All Rights Reserved.
+          © {new Date().getFullYear()} Rashmi Jayasekara. All Rights Reserved.
         </p>
 
         {/* Back to Top Button */}

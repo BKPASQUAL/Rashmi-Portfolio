@@ -36,13 +36,16 @@ function HeroSection() {
           evolving in the world of software engineering. Let's connect!
         </p> */}
 
-        <p className="text-secondaryText text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-justify dark:text-darkPrimary">
-          I am a passionate and results-driven Computer Systems Engineering
-          graduate, skilled in a range of technologies from software development
-          to machine learning. With hands-on experience in both academia and
-          industry, I strive to make a significant impact through innovative
-          solutions, bridging the gap between theoretical knowledge and
-          real-world applications.
+        <p className="text-secondaryText text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-justify dark:text-darkSecondary">
+          I am a dedicated Systems Engineer with a strong foundation in Computer
+          Systems Engineering, passionate about leveraging technology to solve
+          real-world challenges. My expertise spans software development,
+          machine learning, and systems integration, enabling me to design and
+          implement innovative solutions that bridge theoretical knowledge with
+          practical applications. With hands-on experience in both academic and
+          professional settings, I strive to deliver impactful results by
+          combining analytical thinking, creativity, and a
+          commitment to excellence.
         </p>
 
         <div className="flex space-x-3 sm:space-x-4 md:space-x-6">
