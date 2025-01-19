@@ -51,7 +51,7 @@ function Projects() {
             <div className="text-lg md:text-xl flex justify-start font-bold group-hover:text-navy dark:text-white">
               {project.title}
             </div>
-            <div className="mt-1 text-sm md:text-base text-secondaryText dark:text-darkPrimary">
+            <div className="mt-1 text-sm md:text-base text-secondaryText dark:text-text-gray-500">
               {project.shortDescription}
             </div>
           </div>

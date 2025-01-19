@@ -53,8 +53,8 @@ function ResearchInterests() {
             className="bg-white dark:bg-black rounded-lg p-6 flex flex-col group text-start shadow-lg hover:shadow-xl hover:bg-navy dark:hover:bg-navy transform hover:scale-105 transition-all duration-300 "
           >
             {research.icon}
-            <h3 className="text-2xl font-semibold   dark:text-white group-hover:text-white dark:group-hover:text-black mt-4 mb-2">{research.title}</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-300 group-hover:text-white dark:group-hover:text-black">{research.description}</p>
+            <h3 className="text-2xl font-semibold   dark:text-white group-hover:text-white  mt-4 mb-2">{research.title}</h3>
+            <p className="text-base text-gray-500  group-hover:text-white ">{research.description}</p>
           </div>
         ))}
       </div>
