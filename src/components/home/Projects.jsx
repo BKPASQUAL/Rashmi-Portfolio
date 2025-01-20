@@ -68,7 +68,7 @@ function Projects() {
           <>
             {/* Close Icon */}
             <button
-              className="absolute top-4 right-4 text-black text-2xl p-2 hover:text-red-600 dark:text-white"
+              className="absolute top-4 right-4 text-black text-2xl p-2 hover:text-red-600 dark:text-white z-30 bg-blue-gray-100 rounded-full"
               onClick={closeDetails}
             >
               <AiOutlineClose />

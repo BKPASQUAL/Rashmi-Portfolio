@@ -1,7 +1,7 @@
 import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi"; // Import icons
 import Slider from "react-slick"; // Import the Slider component
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function ProjectDetails({ project }) {
@@ -17,24 +17,28 @@ function ProjectDetails({ project }) {
 
   return (
     <div className="bg-bgcolourtwo h-screen w-full p-8 overflow-y-auto dark:bg-darkBg">
-      <h2 className="text-xl font-bold mb-4 mt-2 w-11/12 dark:text-white">{project.title}</h2>
+      <h2 className="text-xl font-bold mb-4 mt-2 w-11/12 dark:text-white">
+        {project.title}
+      </h2>
 
       {/* Image Slider */}
       <div className="mb-6">
         <Slider {...settings}>
           {project.images.map((image, index) => (
-            <div key={index}>
+            <div key={index} className="flex justify-center items-center">
               <img
                 src={image}
                 alt={`Project detail ${index + 1}`}
-                className="w-full h-80 object-cover rounded-lg"
+                className="w-full h-48 md:h-80 object-contain rounded-lg"
               />
             </div>
           ))}
         </Slider>
       </div>
 
-      <p className="text-base text-justify dark:text-darkPrimary">{project.description}</p>
+      <p className="text-base text-justify dark:text-darkPrimary">
+        {project.description}
+      </p>
 
       {/* Tech Stack Section */}
       <div className="mt-6">

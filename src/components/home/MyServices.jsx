@@ -82,7 +82,7 @@ function MyServices() {
   return (
     <div className="bg-bgcolour text-black px-6 md:px-16  py-10 md:py-16 lg:py-28 lg:px-72 dark:bg-darkBg">
       <p className="mb-2 text-navy font-semibold text-center  text-lg  lg:text-2xl">
-        Whai I Do
+        What I Do
       </p>
 
       <div className="text-3xl md:text-5xl lg:mb-12 font-extrabold text-center dark:text-white">
@@ -92,41 +92,41 @@ function MyServices() {
         {/* First Section */}
         <div className="flex flex-col lg:flex-row gap-6 ">
           <div className="w-full lg:w-1/4 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy   ">
-            {services[0].icon}
+            {services[3].icon}
             <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white ">
-              {services[0].title}
+              {services[3].title}
             </div>
             <p className="text-base text-gray-500 text-start mt-4 group-hover:text-white  dark:text-darkSecondary ">
-              {services[0].description}
+              {services[3].description}
             </p>
           </div>
           <div className="flex flex-col gap-6 w-full lg:w-2/4">
             <div className="h-full bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy ">
-              {services[4].icon}
+              {services[2].icon}
               <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white  ">
+                {services[2].title}
+              </div>
+              <p className="text-base text-gray-500 mt-4 group-hover:text-white ">
+                {services[2].description}
+              </p>
+            </div>
+            <div className="h-full bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
+              {services[4].icon}
+              <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white ">
                 {services[4].title}
               </div>
               <p className="text-base text-gray-500 mt-4 group-hover:text-white ">
                 {services[4].description}
               </p>
             </div>
-            <div className="h-full bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
-              {services[1].icon}
-              <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white ">
-                {services[1].title}
-              </div>
-              <p className="text-base text-gray-500 mt-4 group-hover:text-white ">
-                {services[1].description}
-              </p>
-            </div>
           </div>
           <div className="w-full lg:w-1/4 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
-            {services[3].icon}
+            {services[5].icon}
             <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white ">
-              {services[3].title}
+              {services[5].title}
             </div>
             <p className="text-base text-gray-500 mt-4 group-hover:text-white ">
-              {services[3].description}
+              {services[5].description}
             </p>
           </div>
         </div>
@@ -134,21 +134,21 @@ function MyServices() {
         {/* Second Section */}
         <div className="flex flex-col md:flex-row gap-6">
           <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
-            {services[2].icon}
+            {services[0].icon}
             <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white ">
-              {services[2].title}
+              {services[0].title}
             </div>
             <p className="text-base text-gray-500 mt-4 group-hover:text-white ">
-              {services[2].description}
+              {services[0].description}
             </p>
           </div>
           <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg flex flex-col p-8 group hover:bg-navy transition duration-300 hover:scale-105 dark:bg-black dark:text-white dark:hover:bg-navy">
-            {services[5].icon}
+            {services[1].icon}
             <div className="font-bold text-start mt-4 text-lg md:text-xl group-hover:text-white ">
-              {services[5].title}
+              {services[1].title}
             </div>
             <p className="text-base text-gray-500 mt-4 group-hover:text-white ">
-              {services[5].description}
+              {services[1].description}
             </p>
           </div>
         </div>

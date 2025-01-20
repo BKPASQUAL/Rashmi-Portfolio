@@ -7,9 +7,9 @@ import {
   FaNodeJs,
   FaJava,
   FaAws,
-  FaDocker,
-  FaChartLine,
   FaGithub,
+  FaPython,
+  FaPhp,
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -22,7 +22,11 @@ import {
   SiC,
   SiNextdotjs,
   SiBootstrap,
-  SiSass,
+  SiJquery,
+  SiDart,
+  SiFirebase,
+  SiKotlin,
+  SiDotnet,
 } from "react-icons/si";
 import { AiOutlineApi } from "react-icons/ai";
 
@@ -34,27 +38,43 @@ const VercelIcon = () => (
     height="50"
     fill="#C76395"
   >
-    <path d="M0 64L64 0l64 64-64 64z" fill="#C76395" />
-    <path d="M0 64L64 128 128 64z" fill="#C76395" />
-    <path d="M64 0L0 64l64 64 64-64z" fill="#C76395" />
+    <path d="M64 0L0 128h128L64 0z" />
   </svg>
 );
 
-const RailwayIcon = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 16 16"
-    width="50"
-    height="50"
-    fill="#000000"
-  >
-    <path fill="#00C8FF" d="M8 0L6.354 1.646 12.708 8H1.292L7.646 1.646z" />
-    <path fill="#00A8E8" d="M8 16L9.646 14.354 3.292 8H14.708L8 14.354z" />
-  </svg>
+const MatlabIcon = () => (
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"
+    alt="MATLAB"
+    width={50}
+    height={50}
+  />
 );
+
+const Python = () => (
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+    alt="Python"
+    width={50}
+    height={50}
+  />
+);
+
+
+
 
 function Skills() {
   const icons = [
+    { Icon: Python, name: "Python" },
+
+    { Icon: SiJquery, name: "jQuery", color: "#0769AD" },
+    { Icon: FaPhp, name: "PHP", color: "#777BB4" },
+    { Icon: SiDart, name: "Flutter/Dart", color: "#0175C2" },
+    { Icon: SiFirebase, name: "Firebase", color: "#FFCA28" },
+    { Icon: VercelIcon, name: "Vercel", color: "#C76395" },
+    { Icon: SiKotlin, name: "Kotlin", color: "#0095D5" },
+    { Icon: SiDotnet, name: "VB.NET", color: "#5C2D91" },
+    { Icon: MatlabIcon, name: "MATLAB", color: "#0076A8" },
     { Icon: FaHtml5, name: "HTML", color: "#E34F26" },
     { Icon: FaCss3Alt, name: "CSS", color: "#1572B6" },
     { Icon: FaJs, name: "JavaScript", color: "#F7DF1E" },
@@ -63,30 +83,25 @@ function Skills() {
     { Icon: SiExpress, name: "Express", color: "green" },
     { Icon: FaNodeJs, name: "Node.js", color: "#68A063" },
     { Icon: SiMysql, name: "MySQL", color: "#4479A1" },
-    { Icon: SiTailwindcss, name: "Tailwind CSS", color: "#06B6D4" },
+    // { Icon: SiTailwindcss, name: "Tailwind CSS", color: "#06B6D4" },
     { Icon: SiSequelize, name: "Sequelize", color: "#52B0E7" },
     { Icon: SiRedux, name: "Redux", color: "#764ABC" },
     { Icon: FaJava, name: "Java", color: "#007396" },
     { Icon: FaAws, name: "AWS", color: "#FF9900" },
-    { Icon: SiFigma, name: "Figma", color: "#F24E1E" },
     { Icon: SiC, name: "C", color: "#1572B6" },
-    { Icon: AiOutlineApi, name: "Axios", color: "#5A9FD4" },
-
-    { Icon: SiNextdotjs, name: "Next.js", color: "#68A063" },
+    // { Icon: AiOutlineApi, name: "Axios", color: "#5A9FD4" },
+    // { Icon: SiNextdotjs, name: "Next.js", color: "#68A063" },
     { Icon: SiBootstrap, name: "Bootstrap", color: "#7952B3" },
-    { Icon: FaChartLine, name: "ApexCharts", color: "#FF1493" },
-    { Icon: SiSass, name: "SCSS", color: "#C76395" },
-    { Icon: FaDocker, name: "Docker", color: "#2496ED" },
-
-    { Icon: VercelIcon, name: "Vercel", color: "#C76395" },
-    { Icon: RailwayIcon, name: "Railway", color: "#00C8FF" },
-
     { Icon: FaGithub, name: "GitHub", color: "#333" },
+    
+    // { Icon: FaReact, name: "MAUI", color: "#61DAFB" }, 
   ];
 
   return (
     <div className="bg-bgcolourtwo text-black px-6 md:px-16 lg:px-72 lg:py-28 py-10 md:py-20 dark:bg-black">
-      <p className="mb-2 text-navy font-semibold text-center  text-lg  lg:text-2xl">Skills</p>
+      <p className="mb-2 text-navy font-semibold text-center  text-lg  lg:text-2xl">
+        Skills
+      </p>
       <div className="text-3xl md:text-5xl font-extrabold text-center mb-10 md:mb-20 dark:text-white">
         My Tech Stack
       </div>
