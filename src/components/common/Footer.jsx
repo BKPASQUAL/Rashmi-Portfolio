@@ -16,19 +16,19 @@ export default function Footer() {
           <div className="flex space-x-6 text-xl">
             {[
               {
-                href: "https://www.linkedin.com/in/bawanthapasqual",
+                href: "https://www.linkedin.com/in/rashmi-jayasekara-b217531b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
                 icon: "fab fa-linkedin",
               },
               {
-                href: "https://github.com/BKPASQUAL",
+                href: "https://github.com/rashmijayasekara1027",
                 icon: "fab fa-github",
               },
               {
-                href: "https://web.facebook.com/bk.pasqual",
+                href: "https://www.facebook.com/share/187Cqj9Cdq/?mibextid=wwXIfr",
                 icon: "fab fa-facebook",
               },
               {
-                href: "https://www.instagram.com/_.bk_14._",
+                href: "https://www.instagram.com/r.a.s.h_mi_?igsh=Ym85N3hzZ3V2YXEz",
                 icon: "fab fa-instagram",
               },
             ].map((social, index) => (

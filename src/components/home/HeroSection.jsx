@@ -50,7 +50,7 @@ function HeroSection() {
 
         <div className="flex space-x-3 sm:space-x-4 md:space-x-6">
           <a
-            href="https://www.linkedin.com/in/bawanthapasqual"
+            href="https://www.linkedin.com/in/rashmi-jayasekara-b217531b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center bg-white p-2 sm:p-3 md:p-4 shadow border-blue-gray-50 rounded-md cursor-pointer hover:scale-105 hover:shadow-2xl transition-transform duration-300 hover:bg-navy group "
@@ -63,7 +63,7 @@ function HeroSection() {
           </a>
 
           <a
-            href="https://github.com/BKPASQUAL"
+            href="https://github.com/rashmijayasekara1027"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center bg-white p-2 sm:p-3 md:p-4 shadow border-blue-gray-50 rounded-md cursor-pointer hover:scale-105 hover:shadow-2xl transition-transform duration-300 hover:bg-navy group"
@@ -76,7 +76,7 @@ function HeroSection() {
           </a>
 
           <a
-            href="mailto:bawanthapasqual@gmail.com"
+            href="mailto:rashmijayasekara181@gmail.com"
             className="flex items-center bg-white p-2 sm:p-3 md:p-4 shadow border-blue-gray-50 rounded-md cursor-pointer hover:scale-105 hover:shadow-2xl transition-transform duration-300 hover:bg-navy group"
             title="Email"
           >
@@ -87,7 +87,7 @@ function HeroSection() {
           </a>
 
           <a
-            href="https://wa.me/+94770370370"
+            href="https://wa.me/+94761506427"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center bg-white p-2 sm:p-3 md:p-4 shadow border-blue-gray-50 rounded-md cursor-pointer hover:scale-105 hover:shadow-2xl transition-transform duration-300 hover:bg-navy group"

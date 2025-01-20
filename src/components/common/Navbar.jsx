@@ -119,7 +119,7 @@ function Navbar() {
 
         <div className="flex flex-col items-center gap-6 mt-4">
           <a
-            href="https://www.linkedin.com/in/bawanthapasqual"
+            href="https://www.linkedin.com/in/rashmi-jayasekara-b217531b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer text-lg font-semibold hover:text-navy"
@@ -127,7 +127,7 @@ function Navbar() {
             LinkedIn
           </a>
           <a
-            href="https://github.com/BKPASQUAL"
+            href="https://github.com/rashmijayasekara1027"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer text-lg font-semibold hover:text-navy"
@@ -135,7 +135,7 @@ function Navbar() {
             GitHub
           </a>
           <a
-            href="https://resume.com" 
+            href="/RDJayasekara.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer text-lg font-semibold text-navy hover:text-gray-400 flex items-center"
@@ -148,7 +148,7 @@ function Navbar() {
 
       <div className="hidden lg:flex gap-x-4 justify-end font-semibold text-sm md:text-lg">
         <a
-          href="https://www.linkedin.com/in/bawanthapasqual"
+          href="https://www.linkedin.com/in/rashmi-jayasekara-b217531b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer hover:text-navy w-1/3"
@@ -156,7 +156,7 @@ function Navbar() {
           LinkedIn
         </a>
         <a
-          href="https://github.com/BKPASQUAL"
+          href="https://github.com/rashmijayasekara1027"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer hover:text-navy "
@@ -164,7 +164,7 @@ function Navbar() {
           GitHub
         </a>
         <a
-        href="/BawanthaPasqualCVResume.pdf" 
+        href="/RDJayasekara.pdf" 
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer text-navy hover:text-navy hover:font-extrabold flex items-center "
