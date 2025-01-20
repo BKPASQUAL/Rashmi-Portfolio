@@ -25,8 +25,8 @@ function AboutMe() {
           community. I believe in using technology as a force for connection,
           problem-solving, and innovation. Outside of work, you’ll find me
           enjoying a Netflix binge or diving into a thought-provoking
-          movie—activities that recharge my mind and spark new ideas. For me,
-          coding is more than just a career—it’s a way to transform ideas into
+          movie activities that recharge my mind and spark new ideas. For me,
+          coding is more than just a career it’s a way to transform ideas into
           impactful realities.
         </p>
       </div>

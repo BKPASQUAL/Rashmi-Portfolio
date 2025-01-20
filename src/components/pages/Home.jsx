@@ -15,13 +15,13 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <section id="about">
+      <section id="home">
         <HeroSection />
       </section>
-      <section id="skills">
+      <section id="about">
         <AboutMe />
       </section>
-      <section id="expertise">
+      <section id="focus areas">
         <ResearchInterests />
       </section>
       <section id="skills">
@@ -30,7 +30,6 @@ function Home() {
       <section id="expertise">
         <MyServices />
       </section>
-    
 
       <section id="projects">
         <Projects />
@@ -38,12 +37,7 @@ function Home() {
       <section id="work">
         <WorkExperience />
       </section>
-      {/* <section id="education">
-        <Education />
-      </section>
-      <section id="certificates">
-        <Certificates />
-      </section> */}
+
       <Footer />
     </div>
   );

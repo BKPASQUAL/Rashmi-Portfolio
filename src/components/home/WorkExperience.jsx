@@ -4,19 +4,23 @@ const experiences = [
   {
     id: 1,
     title: "Associate Software Engineer - Research & Development",
-    company: "Hayleys Fentons",
+    company: "Hayleys Fentons IT",
     duration: "Aug 2023 - Present",
     description: [
       "Proficient in designing and developing user interfaces for web applications using HTML, CSS, and modern front-end frameworks to ensure responsive and visually appealing designs.",
       "Skilled in back-end development using PHP and JavaScript, integrating server-side logic with databases to create robust and scalable web applications.",
       "Experienced in end-to-end development processes, including requirement analysis, coding, testing, and deployment, ensuring seamless functionality and user experience.",
-      "Adept at collaborating with cross-functional teams to deliver innovative and efficient web solutions.",
+      "Adopt at collaborating with cross-functional teams to deliver innovative and efficient web solutions.",
+      "Experienced in mobile development using Flutter (Dart) and MAUI (.NET) for cross-platform applications.",
+      "Skilled in database management, designing, and integrating secure and efficient databases for dynamic applications.",
+      "Expert in both front-end and back-end technologies to create seamless, scalable, and user-friendly solutions for business growth.",
     ],
   },
+
   {
     id: 2,
     title: "Intern - Software Engineer - Research & Development",
-    company: "Hayleys Fentons",
+    company: "Hayleys Fentons IT",
     duration: "Apr 2022 - Aug 2022",
     description: [
       "Interned as a Full-Stack Developer, where I developed and implemented various software systems for in-house operations and external companies to optimize workflows.",

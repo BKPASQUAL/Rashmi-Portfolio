@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/images/bk.jpg";
+import logo from "../../assets/images/Rasg_dp.jpg";
 import { Link } from "react-scroll"; 
 
 function Navbar() {
@@ -20,13 +20,13 @@ function Navbar() {
 
       <div className="hidden lg:flex space-x-6 justify-center text-sm md:text-lg">
         {[
+          "Home",
           "About",
+          "Focus Areas",
           "Skills",
           "Expertise",
           "Projects",
           "Work",
-          "Education",
-          "Certificates",
         ].map((link) => (
           <Link
             key={link}
@@ -94,13 +94,13 @@ function Navbar() {
         </button>
 
         {[
-          "About",
-          "Skills",
-          "Expertise",
-          "Projects",
-          "Work",
-          "Education",
-          "Certificates",
+         "Home",
+         "About",
+         "Focus Areas",
+         "Skills",
+         "Expertise",
+         "Projects",
+         "Work",
         ].map((link) => (
           <Link
             key={link}
