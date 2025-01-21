@@ -6,17 +6,17 @@ import {
   FaCloudUploadAlt,
   FaPencilRuler,
   FaLayerGroup,
-  FaNetworkWired, // For Networking and Security
-  FaTools, // For System Maintenance and Troubleshooting
+  FaTools, 
+  FaExchangeAlt 
 } from "react-icons/fa";
 
 const services = [
   {
-    title: "Networking and Security",
+    title: "API Development and Integration",
     description:
-      "Expertise in network configuration, security protocols, and ensuring the integrity of systems through firewalls, VPNs, and encryption. Specializing in risk management, threat analysis, and implementing secure network infrastructures.",
+      "Skilled in designing, building, and integrating robust APIs to enable seamless communication between applications, ensuring scalability and efficiency in web and mobile solutions.",
     icon: (
-      <FaNetworkWired
+      <FaExchangeAlt
         size={50}
         className="text-blue-500 group-hover:text-white dark:group-hover:text-blue-500"
       />

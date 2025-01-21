@@ -10,9 +10,11 @@ import hris9 from "../images/Rashmi/HRIS/hris9.png";
 
 import GPass1 from "../images/Rashmi/GPass/GPass1.jpg";
 import GPass2 from "../images/Rashmi/GPass/GPass2.jpg";
-import GPass3 from "../images/Rashmi/GPass/GPass3.jpg";
+import GPass3 from "../images/Rashmi/GPass/GPass3.png";
 import GPass4 from "../images/Rashmi/GPass/GPass4.jpg";
 import GPass5 from "../images/Rashmi/GPass/GPass5.jpg";
+import GPass6 from "../images/Rashmi/GPass/GPass6.png";
+import GPass7 from "../images/Rashmi/GPass/GPass7.png";
 
 import ams1 from "../images/Rashmi/AMS/ams1.png";
 import ams2 from "../images/Rashmi/AMS/ams2.png";
@@ -61,36 +63,59 @@ import capp16 from "../images/Rashmi/CASH_APP/capp1.png";
 import capp17 from "../images/Rashmi/CASH_APP/capp1.png";
 import capp18 from "../images/Rashmi/CASH_APP/capp1.png";
 
-import green1 from "../images/Green/green1.png";
-import green2 from "../images/Green/green2.png";
-import green3 from "../images/Green/green3.png";
-import green4 from "../images/Green/green4.png";
-import green5 from "../images/Green/green5.png";
-import green6 from "../images/Green/green6.png";
-
-import resep1 from "../images/RecepeApp/resep1.png";
-import resep2 from "../images/RecepeApp/resep2.png";
-import resep3 from "../images/RecepeApp/resep3.png";
-import resep4 from "../images/RecepeApp/resep4.png";
-
-import ecorm1 from "../images/e-cormerce/e-corm1.png";
-import ecorm2 from "../images/e-cormerce/e-corm2.png";
-import ecorm3 from "../images/e-cormerce/e-corm3.png";
-import ecorm4 from "../images/e-cormerce/e-corm4.png";
-import ecorm5 from "../images/e-cormerce/e-corm5.png";
-
-import emang1 from "../images/e-corm-management/e-mang1.png";
-import emang2 from "../images/e-corm-management/e-mang2.png";
-import emang3 from "../images/e-corm-management/e-mang3.png";
-import emang4 from "../images/e-corm-management/e-mang4.png";
+import fatendence1 from "../images/Rashmi/FAtendance/fatendence1.png";
+import fatendence2 from "../images/Rashmi/FAtendance/fatendence2.png";
+import fatendence3 from "../images/Rashmi/FAtendance/fatendence3.png";
+import fatendence4 from "../images/Rashmi/FAtendance/fatendence4.png";
+import fatendence5 from "../images/Rashmi/FAtendance/fatendence5.png";
+import fatendence6 from "../images/Rashmi/FAtendance/fatendence6.png";
+import fatendence7 from "../images/Rashmi/FAtendance/fatendence7.png";
 
 const ProjectData = [
+  {
+    title: "Face Guard Attendance Monitoring System",
+    shortDescription:
+      "A sophisticated face recognition-based attendance monitoring system developed for universities to automate and enhance attendance tracking.",
+    description:
+      "The Face Guard Attendance Monitoring System leverages advanced facial recognition techniques to automate attendance marking for universities. This system replaces traditional methods by utilizing real-time processing, ensuring accuracy, security, and efficiency. It integrates a centralized SQL database for managing attendance records and profiles, offers adaptability for varying environments, and provides a web-based interface for seamless session management and reporting.",
+    stack: [
+      "Python",
+      "dlib",
+      "OpenCV",
+      "Flask",
+      "SQLAlchemy",
+      "MySQL",
+      "Anaconda",
+      "DBeaver",
+    ],
+    features: [
+      "Face Recognition-Based Attendance: Automated attendance marking using advanced facial recognition techniques with dlib and OpenCV.",
+      "Real-Time Processing: Accurate attendance tracking using live streaming from CCTV or webcam.",
+      "Database Integration: Centralized SQL database to store attendance records and student profiles, ensuring easy access and management.",
+      "Environment Adaptability: Optimized for varying lighting conditions and facial expressions to maintain high recognition accuracy.",
+      "Web Application Integration: A user-friendly web portal for managing attendance records, generating reports, and monitoring sessions in real-time.",
+      "Session Management: Supports session-based attendance recording, with flexible thresholds to ensure students remain present throughout lectures.",
+      "Paperless Solution: Contributes to a sustainable and eco-friendly environment by eliminating the need for paper-based systems.",
+    ],
+    images: [
+      fatendence1,
+      fatendence2,
+      fatendence3,
+      fatendence4,
+      fatendence5,
+      fatendence6,
+      fatendence7,
+    ],
+    // github_fe: "https://github.com/yourusername/faceguard-fe.git",
+    // github_be: "https://github.com/yourusername/faceguard-be.git",
+  },
+
   {
     title: "Cash App for Fentons IT",
     shortDescription:
       "A mobile application to streamline cash management operations for Fentons IT.",
     description:
-      "The Cash App for Fentons IT is a mobile application designed to streamline cash management operations within the company. This app provides a seamless platform for employees to submit cash advance requests, track their status, and reconcile expenses, all while enhancing operational efficiency and minimizing manual processes. The app integrates real-time notifications, secure logins, and a detailed reporting system for both employees and administrators.",
+      "A mobile application developed to streamline cash management operations for Fentons IT, providing a seamless platform for tracking, managing, and approving cash-related activities. This app enhances operational efficiency and minimizes manual processes by offering a user-friendly interface with robust functionality.",
     stack: [
       "Flutter (Dart)",
       "Firebase Authentication",
@@ -100,13 +125,13 @@ const ProjectData = [
       "DBeaver",
     ],
     features: [
-      "Cash Advance Requests with supporting document uploads",
-      "Role-based approval workflow with real-time notifications",
-      "Request tracking from submission to approval/rejection",
-      "Expense settlement and reconciliation module",
-      "Secure login with multi-factor authentication and encrypted storage",
-      "Real-time push notifications for request status updates",
-      "Detailed report generation on cash transactions",
+      "Cash Advance Requests: Employees can submit requests for cash advances, specifying details with supporting documents.",
+      "Approval Workflow: Integrated role-based access allows approvers to review, approve, or reject requests with real-time notifications.",
+      "Request Tracking: Employees can track the status of their requests, from submission to approval or rejection.",
+      "Expense Settlement: A dedicated module to settle and reconcile cash advances, ensuring accurate reporting.",
+      "Secure Login: Multi-factor authentication and encrypted storage for sensitive user data.",
+      "Real-Time Notifications: Push notifications for updates on request status and approvals.",
+      "Report Generation: Users and administrators can generate detailed reports on cash transactions for analysis.",
     ],
     images: [
       capp1,
@@ -131,6 +156,7 @@ const ProjectData = [
     // github_fe: "https://github.com/yourusername/cashapp-fe.git",
     // github_be: "https://github.com/yourusername/cashapp-be.git",
   },
+
   {
     title: "Medisense Laboratory Pvt Ltd",
     shortDescription:
@@ -167,19 +193,16 @@ const ProjectData = [
     shortDescription:
       "A CRM system designed for managing inquiries and follow-ups for Cinec University.",
     description:
-      "The Customer Relationship Management (CRM) System for Cinec University is designed to streamline and enhance interactions with prospective students, current students, and other stakeholders. The system facilitates the entire student lifecycle, from inquiry management to follow-ups, providing valuable insights through analytics. It integrates communication tools such as SMS and email, allowing efficient tracking and management of inquiries, fostering stronger relationships with prospective students.",
+      "A custom-built CRM solution designed for Cinec University to manage and enhance interactions with stakeholders. The system supports inquiry handling, student lifecycle management, and data-driven decision-making.",
     stack: ["PHP", "MySQL", "HTML", "CSS", "jQuery", "JavaScript", "Bootstrap"],
     features: [
-      "Centralized database for storing all inquiry and student information",
-      "Trend analysis and reporting for strategic decision-making",
-      "Effective follow-up system for call agents",
-      "Real-time managerial insights on call volume and resource allocation",
-      "Integrated SMS gateway for sending automated responses to inquiries",
-      "Email notifications to keep managers informed about incoming inquiries",
-      "CRM dashboard for managing campaigns, reports, and statistics",
-      "Inquiry management with filter functionality and customer export options",
-      "Customizable report generation (PDF, CSV, Excel)",
-      "Campaign management for sending SMS campaigns to large audiences",
+      "Centralized database for inquiry and student data",
+      "SMS gateway integration for instant notifications",
+      "Inquiry forms with automated follow-up management",
+      "Customizable dashboards with reporting and analytics",
+      "Campaign management with SMS and email integration",
+      "Role-based access and navigation panel",
+      "Export options for inquiry and customer data",
     ],
     images: [crm1, crm2, crm3, crm4, crm5, crm6, crm7],
     // "github_fe": "https://github.com/yourusername/crm-fe.git",
@@ -187,11 +210,11 @@ const ProjectData = [
   },
 
   {
-    title: "HRIS System",
+    title: "HRIS (Human Resource Information System)",
     shortDescription:
       "An advanced Human Resource Information System (HRIS) built with PHP and MySQL, designed to streamline employee data management and HR processes",
     description:
-      "This comprehensive HRIS system aims to optimize human resource management within organizations. Built using PHP as the server-side language, the system utilizes MySQL for robust employee data storage and management. The frontend leverages HTML, CSS, jQuery, and JavaScript to create an intuitive and user-friendly interface. The HRIS automates various HR tasks, enhancing data accuracy, reducing errors, and ensuring easy access to reports. By eliminating manual paperwork, it contributes to a paperless and environmentally sustainable work environment, while improving overall productivity. The system also allows seamless integration with other organizational systems to ensure smooth data flow.",
+      "A comprehensive web-based system developed for Hayleys Fentons Ltd to optimize and automate human resource operations. This system enables efficient management of employee data, streamlines HR processes, and minimizes manual errors.",
     stack: [
       "PHP",
       "MySQL",
@@ -203,14 +226,13 @@ const ProjectData = [
       "SQL",
     ],
     features: [
-      "Centralized employee data storage, ensuring accuracy and easy access.",
-      "Automates HR tasks like attendance tracking, leave management, and payroll.",
-      "User-friendly interface with intuitive navigation for HR professionals and employees.",
-      "Quick and easy report generation for data-driven decision making.",
-      "Eliminates paper-based processes, fostering a more sustainable and eco-friendly workplace.",
-      "Secure database management using MySQL and DBeaver for scalable and reliable data handling.",
-      "Seamless integration with other organizational systems for smooth data flow.",
-      "Supports employee self-service for viewing personal data, leave requests, and payroll information.",
+      "Centralized employee data management and directory",
+      "Automated letter and requisition requests with QR code integration",
+      "Admin dashboard with role-based access and permissions.",
+      "QEvent and advertisement management",
+      "Search and filtering functionalities for employee profiles",
+      "Real-time updates and approvals for pending tasks",
+      "Paperless document processing",
     ],
     images: [hris1, hris2, hris3, hris4, hris5, hris6, hris7, hris8, hris9],
     // github_fe: "https://github.com/BKPASQUAL/TPP_FE.git",
@@ -255,19 +277,24 @@ const ProjectData = [
     shortDescription:
       "A system for managing and tracking various agreements within an organization.",
     description:
-      "The Agreement Management System (AMS) is designed to simplify the creation, tracking, management, and analysis of agreements. This system centralizes all agreements in a single location and automates the workflows involved in the agreement process, ensuring reduced errors, faster approvals, and compliance management. It is an essential tool for organizations managing large volumes of agreements across different departments.",
-    stack: ["PHP", "MySQL", "HTML", "CSS", "jQuery", "JavaScript", "Bootstrap"],
+      "A web-based solution tailored for Solar Division of Hayleys Fentons Ltd to streamline the lifecycle of agreements. This system centralizes agreement data, automates workflows, and enhances compliance and decision-making capabilities.",
+    stack: [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "jQuery",
+      "JavaScript",
+      "Bootstrap",
+      "DBeaver",
+    ],
     features: [
-      "Centralized repository for all agreements",
-      "Workflow automation for faster approval cycles",
-      "Error reduction through automated data entry and revisions",
-      "Time and cost savings by streamlining processes",
-      "Compliance management for legal and regulatory requirements",
-      "Faster decision-making with real-time information",
-      "Data analytics and reporting for agreement performance insights",
-      "Client management in FIRE and AC sections",
-      "Filtering and search functionalities for easy navigation",
-      "Record management per client with service details, warranty due dates, and more",
+      "Centralized repository for agreements and client data",
+      "Workflow automation for agreement creation and approvals",
+      "Filtering and advanced search functionalities",
+      "Agreement reporting and analytics",
+      "Client registration and record-keeping for Fire and AC departments",
+      "Role-based access control for secure operations",
     ],
     images: [ams2, ams1, ams3, ams4, ams5, ams6, ams7],
     // github_fe: "https://github.com/yourusername/ams-fe.git",
@@ -291,7 +318,7 @@ const ProjectData = [
       "Streamlined workflow for users and supervisors",
       "Detailed reports for analysis and decision-making",
     ],
-    images: [GPass1, GPass2, GPass3, GPass4, GPass5], // Replace with actual image URLs
+    images: [GPass1, GPass2, GPass3, GPass4, GPass5, GPass6, GPass7], // Replace with actual image URLs
     // "github_fe": "https://github.com/yourusername/gatepass-fe.git",
     // "github_be": "https://github.com/yourusername/gatepass-be.git"
   },
