@@ -34,6 +34,14 @@ import crm7 from "../images/Rashmi/CRM/crm7.png";
 
 import medi1 from "../images/Medicenece/medi1.png";
 import medi2 from "../images/Medicenece/medi2.png";
+import medi3 from "../images/Medicenece/medisense1.png";
+import medi4 from "../images/Medicenece/medisense2.png";
+import medi5 from "../images/Medicenece/medisense3.png";
+import medi6 from "../images/Medicenece/medisense4.png";
+import medi7 from "../images/Medicenece/medisense5.png";
+import medi8 from "../images/Medicenece/medisense6.png";
+import medi9 from "../images/Medicenece/medisense7.png";
+import medi10 from "../images/Medicenece/medisense9.png";
 
 import car1 from "../images/CarStore/car1.png";
 import car2 from "../images/CarStore/car2.png";
@@ -184,7 +192,7 @@ const ProjectData = [
       "Detailed reporting and analytics",
       "Receipts and billing management",
     ],
-    images: [medi1, medi2],
+    images: [medi1,medi3,medi4,medi5,medi6,medi7,medi8,medi9,medi10],
     github_fe: "https://github.com/BKPASQUAL/Medisense_FE.git",
     github_be: "https://github.com/BKPASQUAL/medisense_be.git",
   },
