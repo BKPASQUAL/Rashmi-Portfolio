@@ -45,23 +45,23 @@ import car7 from "../images/CarStore/car7.png";
 import car8 from "../images/CarStore/car8.png";
 
 import capp1 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp2 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp3 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp4 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp5 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp6 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp7 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp8 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp9 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp10 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp11 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp12 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp13 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp14 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp15 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp16 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp17 from "../images/Rashmi/CASH_APP/capp1.png";
-import capp18 from "../images/Rashmi/CASH_APP/capp1.png";
+import capp2 from "../images/Rashmi/CASH_APP/capp2.png";
+import capp3 from "../images/Rashmi/CASH_APP/capp3.png";
+import capp4 from "../images/Rashmi/CASH_APP/capp4.png";
+import capp5 from "../images/Rashmi/CASH_APP/capp5.png";
+import capp6 from "../images/Rashmi/CASH_APP/capp6.png";
+import capp7 from "../images/Rashmi/CASH_APP/capp7.png";
+import capp8 from "../images/Rashmi/CASH_APP/capp8.png";
+import capp9 from "../images/Rashmi/CASH_APP/capp9.png";
+import capp10 from "../images/Rashmi/CASH_APP/capp10.png";
+import capp11 from "../images/Rashmi/CASH_APP/capp11.png";
+import capp12 from "../images/Rashmi/CASH_APP/capp12.png";
+import capp13 from "../images/Rashmi/CASH_APP/capp13.png";
+import capp14 from "../images/Rashmi/CASH_APP/capp14.png";
+import capp15 from "../images/Rashmi/CASH_APP/capp15.png";
+import capp16 from "../images/Rashmi/CASH_APP/capp16.png";
+import capp17 from "../images/Rashmi/CASH_APP/capp17.png";
+import capp18 from "../images/Rashmi/CASH_APP/capp18.png";
 
 import fatendence1 from "../images/Rashmi/FAtendance/fatendence1.png";
 import fatendence2 from "../images/Rashmi/FAtendance/fatendence2.png";
@@ -210,7 +210,7 @@ const ProjectData = [
   },
 
   {
-    title: "HRIS (Human Resource Information System)",
+    title: "HRIS System for Hayleys Fentons",
     shortDescription:
       "An advanced Human Resource Information System (HRIS) built with PHP and MySQL, designed to streamline employee data management and HR processes",
     description:
@@ -273,7 +273,7 @@ const ProjectData = [
     // demo: "https://luxuryrides.vercel.app/",
   },
   {
-    title: "Agreement Management System (AMS)",
+    title: "Agreement Management System for Hayleys Solar",
     shortDescription:
       "A system for managing and tracking various agreements within an organization.",
     description:

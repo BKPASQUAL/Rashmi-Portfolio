@@ -24,7 +24,7 @@ function HeroSection() {
         </h1>
 
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-black dark:text-white">
-          Software Engineer
+          Systems Engineer
         </h1>
 
         {/* <p className="text-secondaryText text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-justify dark:text-darkPrimary">
