@@ -166,7 +166,7 @@ const ProjectData = [
   },
 
   {
-    title: "Medisense Laboratory Pvt Ltd",
+    title: "Medical Laboratory Management System for Medisense Laboratory Pvt Ltd",
     shortDescription:
       "A web-based platform to manage diagnostics operations, offering secure access to records, test results, and reports.",
     description:
@@ -192,7 +192,7 @@ const ProjectData = [
       "Detailed reporting and analytics",
       "Receipts and billing management",
     ],
-    images: [medi1,medi3,medi4,medi5,medi6,medi7,medi8,medi9,medi10],
+    images: [medi1, medi3, medi4, medi5, medi6, medi7, medi8, medi9, medi10],
     github_fe: "https://github.com/BKPASQUAL/Medisense_FE.git",
     github_be: "https://github.com/BKPASQUAL/medisense_be.git",
   },
@@ -310,11 +310,11 @@ const ProjectData = [
   },
 
   {
-    title: "Gate Pass Management System",
+    title: "Gate Pass Management System (GPS) for Hayleys Fentons Ltd.",
     shortDescription:
       "A system to optimize and simplify gate pass management within an organization.",
     description:
-      "Gate Pass Management System is a sophisticated platform designed to streamline and simplify gate pass management. It enables users to easily create, view, edit, and manage gate passes. Supervisors can approve or reject requests with a single click, promoting a transparent and efficient workflow. This system ensures seamless communication, improves productivity, and contributes to a paperless work environment.",
+      "A sophisticated platform designed to optimize and simplify the gate pass creation and management process for Hayleys Fentons Ltd. This system ensures security, transparency, and efficiency in managing employee and vehicle access.",
     stack: ["PHP", "MySQL", "HTML", "CSS", "jQuery", "JavaScript", "Bootstrap"],
     features: [
       "User-friendly Registration Page",
