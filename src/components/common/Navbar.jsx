@@ -135,7 +135,7 @@ function Navbar() {
             GitHub
           </a>
           <a
-            href="/Rashmi_Jayasekara_Resume.pdf" 
+            href="/RDJayasekara_CV.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer text-lg font-semibold text-navy hover:text-gray-400 flex items-center"
@@ -164,7 +164,7 @@ function Navbar() {
           GitHub
         </a>
         <a
-        href="/Rashmi_Jayasekara_Resume.pdf" 
+        href="/RDJayasekara_CV.pdf" 
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer text-navy hover:text-navy hover:font-extrabold flex items-center "
