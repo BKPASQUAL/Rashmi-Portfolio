@@ -50,7 +50,7 @@ export default function Footer() {
           {/* Email Card */}
           <div
             className="w-full md:w-1/2 bg-white p-8 md:p-6 rounded-xl flex items-center justify-center text-center cursor-pointer transition-all duration-300 hover:scale-105 neon-hover neon-border shadow-neon relative"
-            onClick={() => window.open("mailto:rashmijayasekara181", "_self")}
+            onClick={() => window.open("mailto:rashmijayasekara181@gmail.com", "_self")}
           >
             <span className="absolute top-3 left-3 flex h-3 w-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
