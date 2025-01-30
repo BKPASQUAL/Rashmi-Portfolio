@@ -37,7 +37,9 @@ function Home() {
       <section id="work">
         <WorkExperience />
       </section>
-
+      <section id="work">
+        <Certificates />
+      </section>
       <Footer />
     </div>
   );
